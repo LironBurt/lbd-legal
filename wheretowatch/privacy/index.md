@@ -6,7 +6,7 @@ title: WhereToWatch — Privacy Policy / מדיניות פרטיות
 
 # מדיניות פרטיות — WhereToWatch
 
-**עודכן לאחרונה:** 4 באוקטובר 2026 · **גרסה:** 1.0
+**עודכן לאחרונה:** 13 באוקטובר 2026 · **גרסה:** 1.1
 
 WhereToWatch ("האפליקציה") היא אפליקציה ללא מטרות רווח שפותחה על ידי לירון ברט (LBD · Liron Burt Developments), ומראה היכן אפשר לצפות בסרטים ובסדרות. מסמך זה מסביר איזה מידע עובר דרך האפליקציה, למה, ולמי.
 
@@ -34,6 +34,9 @@ WhereToWatch ("האפליקציה") היא אפליקציה ללא מטרות ר
 - **יומני שרת טכניים:** ספקית האירוח (Supabase) רושמת יומני גישה טכניים, הכוללים כתובת IP, ושומרת אותם לזמן קצר (כיום כיום אחד) לצורכי אבטחה ותפעול. איננו משתמשים בהם לזיהוי משתמשים.
 - **נתונים ציבוריים:** השרת שלנו קורא מדי לילה קטלוגים ולוחות שידורים ציבוריים (FreeTV, mako, רשת 13). אין בהם מידע עליכם.
 
+## התראות "חדש בפלטפורמה" (אופציונלי)
+אם תפעילו את האפשרות בהגדרות, האפליקציה תבדוק ברקע, כפעמיים ביום, את הכותרים ברשימת הצפייה שלכם ותשלח התראה כשכותר מגיע לפלטפורמת צפייה במדינה שלכם. הבדיקה שולחת לשרת שלנו את אותו מידע כמו בשימוש רגיל (מזהה הכותר והמדינה), ללא כל פרט מזהה. רשימת הצפייה, מה שנבדק ומה שכבר דווח נשמרים על המכשיר בלבד, וההתראות נוצרות במכשיר. ברירת המחדל כבויה, ואפשר לכבות בכל עת.
+
 ## מה נשמר על המכשיר
 רשימת הצפייה, ההגדרות (מדינה ושפה) ותוצאות שנשמרו לשימוש בלי חיבור. אנדרואיד עשוי לגבות נתונים אלה לחשבון Google שלכם במסגרת הגיבוי הרגיל של המכשיר. מחיקת האפליקציה מוחקת אותם מהמכשיר.
 
@@ -60,7 +63,7 @@ WhereToWatch ("האפליקציה") היא אפליקציה ללא מטרות ר
 
 # Privacy Policy — WhereToWatch
 
-**Last updated:** October 4, 2026 · **Version:** 1.0
+**Last updated:** October 13, 2026 · **Version:** 1.1
 
 WhereToWatch ("the app") is a non-commercial app by Liron Burt (LBD · Liron Burt Developments) that shows where movies and TV shows can be watched. This page explains what information passes through the app, why, and to whom. If the Hebrew and English versions differ, the Hebrew version applies.
 
@@ -87,6 +90,9 @@ Images (posters, logos) load directly from TMDB's and Streaming Availability's s
 - **Shared cache:** provider responses are kept for up to 7 days to save requests. The request address includes the search text, title ID and country, but **nothing that identifies you** (no IP address, no device ID, no account).
 - **Technical server logs:** our hosting provider (Supabase) keeps technical access logs, including IP addresses, for a short time (currently about one day) for security and operations. We don't use them to identify users.
 - **Public data:** each night our server reads public catalogs and TV schedules (FreeTV, mako, Reshet 13). They contain no information about you.
+
+## "New on a platform" notifications (optional)
+If you turn this on in Settings, the app checks the titles in your watchlist in the background about twice a day and notifies you when one lands on a streaming platform in your country. The check sends our server the same information as normal use (title ID and country) and nothing that identifies you. Your watchlist, what was checked and what was already reported stay on your device, and the notifications are created on your device. It is off by default and you can turn it off at any time.
 
 ## What stays on your device
 Your watchlist, settings (country, language) and results saved for offline use. Android may back these up to your Google account as part of normal device backup. Uninstalling the app deletes them from the device.
